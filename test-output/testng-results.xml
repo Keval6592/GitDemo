@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="35" started-at="2019-05-12T05:26:07Z" finished-at="2019-05-12T05:26:07Z">
+    <groups>
+      <group name="Scooter">
+        <method signature="Grouping.Scooter1()[pri:0, instance:automatonFramework.Grouping@675d3402]" name="Scooter1" class="automatonFramework.Grouping"/>
+        <method signature="Grouping.Scooter2()[pri:0, instance:automatonFramework.Grouping@675d3402]" name="Scooter2" class="automatonFramework.Grouping"/>
+        <method signature="Grouping.Sedan1()[pri:0, instance:automatonFramework.Grouping@675d3402]" name="Sedan1" class="automatonFramework.Grouping"/>
+      </group> <!-- Scooter -->
+      <group name="Car">
+        <method signature="Grouping.Car1()[pri:0, instance:automatonFramework.Grouping@675d3402]" name="Car1" class="automatonFramework.Grouping"/>
+        <method signature="Grouping.Car2()[pri:0, instance:automatonFramework.Grouping@675d3402]" name="Car2" class="automatonFramework.Grouping"/>
+        <method signature="Grouping.Sedan1()[pri:0, instance:automatonFramework.Grouping@675d3402]" name="Sedan1" class="automatonFramework.Grouping"/>
+      </group> <!-- Car -->
+    </groups>
+    <test name="Practice Grouping" duration-ms="35" started-at="2019-05-12T05:26:07Z" finished-at="2019-05-12T05:26:07Z">
+      <class name="automatonFramework.Grouping">
+        <test-method status="PASS" signature="Car1()[pri:0, instance:automatonFramework.Grouping@675d3402]" name="Car1" duration-ms="6" started-at="2019-05-12T05:26:07Z" finished-at="2019-05-12T05:26:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Car1 -->
+        <test-method status="PASS" signature="Car2()[pri:0, instance:automatonFramework.Grouping@675d3402]" name="Car2" duration-ms="2" started-at="2019-05-12T05:26:07Z" finished-at="2019-05-12T05:26:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Car2 -->
+        <test-method status="PASS" signature="Scooter1()[pri:0, instance:automatonFramework.Grouping@675d3402]" name="Scooter1" duration-ms="1" started-at="2019-05-12T05:26:07Z" finished-at="2019-05-12T05:26:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scooter1 -->
+        <test-method status="PASS" signature="Scooter2()[pri:0, instance:automatonFramework.Grouping@675d3402]" name="Scooter2" duration-ms="1" started-at="2019-05-12T05:26:07Z" finished-at="2019-05-12T05:26:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scooter2 -->
+        <test-method status="PASS" signature="Sedan1()[pri:0, instance:automatonFramework.Grouping@675d3402]" name="Sedan1" duration-ms="1" started-at="2019-05-12T05:26:07Z" finished-at="2019-05-12T05:26:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sedan1 -->
+      </class> <!-- automatonFramework.Grouping -->
+    </test> <!-- Practice Grouping -->
+  </suite> <!-- Suite -->
+</testng-results>
